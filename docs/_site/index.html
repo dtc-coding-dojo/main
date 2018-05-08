@@ -1,12 +1,3 @@
----
-layout: null
-title: The DTC Coding Dojo
-description: This is the webpage for the DTC Coding dojo
-sitemap:
-    priority: 1.0
-    lastmod: 2017-11-02
-    changefreq: weekly
----
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -16,7 +7,25 @@ sitemap:
 -->
 <html>
 	<head>
-    {% include head.html %}
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>The DTC Coding Dojo</title>
+<meta name="description" content="This is the webpage for the DTC Coding dojo">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/manifest.json">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+
  
 	</head>
 
@@ -41,13 +50,19 @@ sitemap:
 
 				<!-- Header -->
 					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">DTC Coding Dojo</a>
+						<a href="/" class="logo">DTC Coding Dojo</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 
-            {% include nav.html %}
+            <ul class="links">
+  <li class=" active "><a href="/">Theme Home</a></li>
+  <li class=""><a href="/about/">About</a></li>
+  <li class=""><a href="/blog/">Blog</a></li>
+  <li class=""><a href="/elements/">Elements Reference</a></li>
+</ul>
+
 
 						<ul class="icons">
               <li><a href="https://github.com/dtc-coding-dojo" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
@@ -70,26 +85,35 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:12 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                
+                
   								<article>
   									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  										<span class="date">08 May 2018</span>
+  										<h2><a href="/blog/welcome-to-massively-the-jekyll-theme/">This is a test report</a></h2>
   									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
+  									<a href="/blog/welcome-to-massively-the-jekyll-theme/" class="image fit"><img src="../g4225.png" alt="" /></a>
+  									<p>this is a test description</p>
   									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Report</a></li>
+  										<li><a href="/blog/welcome-to-massively-the-jekyll-theme/" class="button">Full Report</a></li>
   									</ul>
   								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									
-
+                  
+                
+                
+  								<article>
+  									<header>
+  										<span class="date">31 Oct 2017</span>
+  										<h2><a href="/blog/welcome-to-massively-the-jekyll-theme/">Welcome to Massively: The Jekyll Theme!</a></h2>
+  									</header>
+  									<a href="/blog/welcome-to-massively-the-jekyll-theme/" class="image fit"><img src="/images/pic02.jpg" alt="" /></a>
+  									<p>Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</p>
+  									<ul class="actions">
+  										<li><a href="/blog/welcome-to-massively-the-jekyll-theme/" class="button">Full Report</a></li>
+  									</ul>
   								</article>
-                  {% endif %}
-                {% endfor %}
+                  
+                
 
 							</section>
 
@@ -97,8 +121,23 @@ sitemap:
 				<!-- Footer -->
 
 		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
+		<!-- DYN -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=default"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'default');
+</script>
+
 
 	</body>
 </html>

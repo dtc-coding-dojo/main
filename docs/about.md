@@ -11,9 +11,8 @@ sitemap:
 <div class="box">
   <p>
 We are a peer support network of DPhil candidates within the Doctoral Training Centre, University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide the participants to a solution. Afterwards reports and, if the participants agrees to, code will be published. 
-
-The Coding Dojo was conceived in collaboration by Prof. Gail Preston and DPhil candidate Nicolas Arning. Nicolas Arning is currently running organisation together with the DTC administration team and the webpage. Any inquiries please direct at nicolas.arning@biodtp.ox.ac.uk 
-
+<p> </p>
+The Coding Dojo was conceived in collaboration by Prof. Gail Preston and DPhil candidate Nicolas Arning. Nicolas Arning is currently running organisation together with the DTC administration team. He also designed and is hosting this webpage. Any inquiries please direct at nicolas.arning@biodtp.ox.ac.uk 
 </p>
 </div>
 

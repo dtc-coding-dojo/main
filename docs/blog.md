@@ -9,7 +9,7 @@ sitemap:
 ---
 
 
-<p style="text-align:center;"> <img class="center" height="200" src="{{ "/images/cvpic.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="200" src="{{ "../cvpic.png" | absolute_url }}" alt="" /> </p>
 ## Nicolas Arning
 ### Interdisciplinary Biosciences DTP
 
@@ -23,7 +23,7 @@ sitemap:
 
 <p></p>
 
-<p style="text-align:center;"> <img class="center" height="200" src="{{ "/images/empty.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="200" src="{{ "../empty.png" | absolute_url }}" alt="" /> </p>
 
 
 ## Another Person

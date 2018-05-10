@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/blog/test/</loc>
+      <loc>http://dtccodingdojo.co.uk/blog/test/</loc>
       
         <lastmod>2018-05-08T00:00:00+01:00</lastmod>
       
@@ -12,7 +12,7 @@
   
   
     <url>
-      <loc>/about/</loc>
+      <loc>http://dtccodingdojo.co.uk/about/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -22,7 +22,7 @@
      </url>
   
     <url>
-      <loc>/blog/</loc>
+      <loc>http://dtccodingdojo.co.uk/blog/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -32,7 +32,7 @@
      </url>
   
     <url>
-      <loc>/elements/</loc>
+      <loc>http://dtccodingdojo.co.uk/elements/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -42,7 +42,7 @@
      </url>
   
     <url>
-      <loc>/feed.xml</loc>
+      <loc>http://dtccodingdojo.co.uk/feed.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -52,7 +52,7 @@
      </url>
   
     <url>
-      <loc>/</loc>
+      <loc>http://dtccodingdojo.co.uk/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -62,7 +62,7 @@
      </url>
   
     <url>
-      <loc>/css/main.css</loc>
+      <loc>http://dtccodingdojo.co.uk/css/main.css</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -72,7 +72,7 @@
      </url>
   
     <url>
-      <loc>/sitemap.xml</loc>
+      <loc>http://dtccodingdojo.co.uk/sitemap.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -82,7 +82,7 @@
      </url>
   
     <url>
-      <loc>/feed.xslt.xml</loc>
+      <loc>http://dtccodingdojo.co.uk/feed.xslt.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>

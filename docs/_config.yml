@@ -1,7 +1,7 @@
 # Site
 title:              DTC Coding Dojo
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                'The DTC coding dojo webpage'
+description:        "The DTC coding dojo webpage"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Oxford, UK
+phone:              0
+email:              nicolas.arning@biodtp.ox.ac.uk
 
 # Gems
 gems:

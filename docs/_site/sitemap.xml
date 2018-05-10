@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/blog/welcome-to-massively-the-jekyll-theme/</loc>
+      <loc>/blog/test/</loc>
       
         <lastmod>2018-05-08T00:00:00+01:00</lastmod>
       
@@ -10,25 +10,6 @@
       <priority>0.7</priority>
     </url>
   
-    <url>
-      <loc>/blog/welcome-to-massively-the-jekyll-theme/</loc>
-      
-        <lastmod>2017-10-31T00:00:00+00:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-  
-    <url>
-      <loc>/jekyll-theme-massively-src-master/about/</loc>
-       <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.7</priority>
-      
-     </url>
   
     <url>
       <loc>/about/</loc>
@@ -41,27 +22,7 @@
      </url>
   
     <url>
-      <loc>/jekyll-theme-massively-src-master/blog/</loc>
-       <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
       <loc>/blog/</loc>
-       <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
-      <loc>/jekyll-theme-massively-src-master/elements/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -91,16 +52,6 @@
      </url>
   
     <url>
-      <loc>/jekyll-theme-massively-src-master/</loc>
-       <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>1.0</priority>
-      
-     </url>
-  
-    <url>
       <loc>/</loc>
        <lastmod>2017-11-02T00:00:00+00:00</lastmod>
       
@@ -112,16 +63,6 @@
   
     <url>
       <loc>/css/main.css</loc>
-       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
-      
-       <changefreq>weekly</changefreq>
-      
-       <priority>0.5</priority>
-      
-     </url>
-  
-    <url>
-      <loc>/jekyll-theme-massively-src-master/sitemap.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>

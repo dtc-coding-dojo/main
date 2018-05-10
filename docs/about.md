@@ -1,27 +1,90 @@
 ---
 layout: page
-title: Jekyll Theme - About - Massively
+title:  The DTC Coding Dojo - About Us
 description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-## About our Site
-
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
-
-Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
-
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
-
-### Content is Imortant
+## Who are we?
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
-  </p>
+We are a peer support network of DPhil candidates within the Doctoral Training Centre, University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide the participants to a solution. Afterwards reports and, if the participants agrees to, code will be published. 
+
+The Coding Dojo was conceived in collaboration by Prof. Gail Preston and DPhil candidate Nicolas Arning. Nicolas Arning is currently running organisation together with the DTC administration team and the webpage. Any inquiries please direct at nicolas.arning@biodtp.ox.ac.uk 
+
+</p>
 </div>
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
 
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+## What are our goals?
+<div class="box">
+  <p>
+We have 4 main goals at the Coding Dojo:
+<ul>
+<li> Solve bioinformatics or computer science related issues arising during rotations or DPhil projects. </li>
+<li> Teach applied bioinformatics and computer science by solving actual research problems while touching basic principles on the go. </li>
+<li> Establish a network of peer support. Participants should learn how to help themselves or learn who to ask </li>
+<li> Demonstrators gain experience in teaching and software development and both demonstrators and participants benefit from exposure to a wide range of application areas and approaches. </li>
+</ul>
+
+
+
+</p>
+</div>
+
+
+## When and where?
+<div class="box">
+  <p>
+The problems for the week have to be submitted by Monday 5pm of the same week. On Thursday between 6 and 8pm we will hold the problem session at the Rex Richards building. Between Monday and Thursday we will circulate the problems to the DTC so everyone who finds the problem session relevant can attend </p>
+</div>
+
+
+
+## Who can take part?
+<div class="box">
+  <p>
+Anyone who is currently enrolled in any programm associated with the Doctoral Training Centre can submit problems or become an expert.
+</p>
+</div>
+
+
+
+## Who are the Experts?
+<div class="box">
+  <p>o
+Any member of the DTC who feels has some computer related knowledge that others can benefit from can become an expert and will be featured on our expert board. This does not mean you have to be a world class expert to sign up. Similarily you will also not be helping at a problem session without agreeing to do so upon receiveing the problem submission form. Any expert can name Masterclasses which they feel confident in giving
+</p>
+</div>
+
+## What is a Masterclass?
+<div class="box">
+  <p>
+A masterclass can be anything from a problem that you have solved, to a cool method you have used or a topic you would like to explain to people. The Masterclasses will be featured with your profile on the expert board so participants can choose to submit them with the problem submission form
+</p>
+</div>
+
+## What will happen to my data?
+<div class="box">
+  <p>
+To ensure the proper handling of your data we have designed a data policy agreement which has to be agreed on before submitting a problem. SABS students may not store or publish their code on a public repository, such as GitHub, without going through the standard SABS DMS to obtain permission from our partners first.  Any data that is protected by a confidentiality agreement, such as from industrial partners or the NHS,  will not be used or published by the Coding Dojo.
+</p>
+</div>
+
+## What is the data policy agreement?
+<div class="box">
+  <p>
+For the purpose of solving problems encountered during the DPhil at the Doctoral Training Centre at the University of Oxford, we, the DTC Coding Dojo, need to gather information related to the problems at hand. This information can include data generated during the DPhil or data generated by others which is subject to analysis or modification during the DPhil. The data will be temporarily stored on the laptop which is used for demonstration purposes. Afterwards code will be written to analyse or modify the data. The code is published only if the student agrees to do so. The data will be permanently removed from the laptop used during the session after the completion of the session. The problem solving will be performed to an audience of fellow DPhil students of the Doctoral Training Centre. During the sessions the data could be seen by other DPhil students. If the student agrees, the data can be made publicly available alongside the code. This data policy agreement ensures that the temporary storage and viewing of the data complies with the data policy agreements of the DPhil project of the student, involving any Principal investigator, supervisors or industrial partners involved in the DPhil project. It lies within the responsibility of the student submitting the problem to check whether our use of data complies with any agreements made beforehand regarding the data related to the problem we discuss. We as the DTC Coding Dojo take no responsibility if this policy agreement breaches previous agreements. 
+</p>
+</div>
+
+
+## Where can I find the code?
+<div class="box">
+  <p>
+The code we generate during the problem solving session will be published on our github account which you can find  <a href="https://github.com/dtc-coding-dojo">here</a>. The code will only be published if the person who submits the problem agrees to do so.
+</p>
+</div>
+

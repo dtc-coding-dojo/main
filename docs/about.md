@@ -10,7 +10,7 @@ sitemap:
 ## Who are we?
 <div class="box">
   <p>
-We are a peer support network of DPhil candidates within the Doctoral Training Centre, University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide the participants to a solution. Afterwards reports and, if the participants agrees to, code will be published. 
+We are a peer support network of DPhil candidates within the Doctoral Training Centre at the University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide participants to a solution. Afterwards reports and, if the participants agrees to, code will be published. Thus over time we hope to generate a comprehensive database of problems and solutions for current and future DTC students to draw from.
 </p>
 </div>
 
@@ -59,14 +59,14 @@ Any member of the DTC who feels has some computer related knowledge that others 
 ## What is a Masterclass?
 <div class="box">
   <p>
-A masterclass can be anything from a problem that you have solved, to a cool method you have used or a topic you would like to explain to people. The Masterclasses will be featured with your profile on the expert board so participants can choose to submit them with the problem submission form
+A masterclass can be anything from a problem that you have solved, to a cool method you have used or a topic you would like to talk about to other students. The masterclasses will be featured with your profile on the expert board so participants can choose to submit them with the problem submission form.
 </p>
 </div>
 
 ## What will happen to my data?
 <div class="box">
   <p>
-To ensure the proper handling of your data we have designed a data policy agreement which has to be agreed on before submitting a problem. SABS students may not store or publish their code on a public repository, such as GitHub, without going through the standard SABS DMS to obtain permission from our partners first.  Any data that is protected by a confidentiality agreement, such as from industrial partners or the NHS,  will not be used or published by the Coding Dojo.
+To ensure the proper handling of your data, we have written a data policy agreement which has to be agreed to before submitting a problem. SABS students may not store or publish their code on a public repository, such as GitHub, without going through the standard SABS DMS to obtain permission from our partners first.  Any data that is protected by a confidentiality agreement, such as from industrial partners or the NHS,  will not be used or published by the Coding Dojo.
 </p>
 </div>
 
@@ -81,13 +81,13 @@ For the purpose of solving problems encountered during the DPhil at the Doctoral
 ## Where can I find the code?
 <div class="box">
   <p>
-The code we generate during the problem solving session will be published on our github account which you can find  <a href="https://github.com/dtc-coding-dojo">here</a>. The code will only be published if the person who submits the problem agrees to do so.
+The code we generate during the problem solving session will be published on our GitHub account which you can find  <a href="https://github.com/dtc-coding-dojo">here</a>. The code will only be published if the person who submits the problem agrees to do so.
 </p>
 </div>
 
 ## Disclaimer
 <div class="box">
   <p>
-This website is designed and hosted by Nicolas Arning using and modifying the Jekyll theme Massively. The organisation of the Coding Dojo is currently in the hands of Nicolas Arning. The DTC Coding Dojo logo is made up of the official logo of the Doctoral Training Centre University of Oxford, the crest of the University of Oxford and an image of a temple from wikimedia commons. Any inquiries please direct at nicolas.arning@biodtp.ox.ac.uk 
+This website is designed and hosted by Nicolas Arning using and modifying the Jekyll theme Massively. The organisation of the Coding Dojo is currently in the hands of Nicolas Arning in cooperation with the DTC administrative team. The DTC Coding Dojo logo is made up of the official logo of the Doctoral Training Centre University of Oxford, the crest of the University of Oxford and an image of a temple from wikimedia commons. Any inquiries please direct at nicolas.arning@biodtp.ox.ac.uk.
 </p>
 </div>

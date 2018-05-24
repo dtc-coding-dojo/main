@@ -10,7 +10,7 @@ sitemap:
 ## Who are we?
 <div class="box">
   <p>
-We are a peer support network of DPhil candidates within the Doctoral Training Centre at the University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide participants to a solution. Afterwards reports and, if the participants agrees to, code will be published. Thus over time we hope to generate a comprehensive database of problems and solutions for current and future DTC students to draw from.
+We are a peer support network of DPhil candidates within the Doctoral Training Centre at the University of Oxford. Students can submit computer related problems to us and with the help of experts we will guide participants to a solution. After the session reports and, if the participants agrees, code will be published. Thus over time we hope to generate a comprehensive database of problems and solutions for current and future DTC students to draw from.
 </p>
 </div>
 
@@ -21,9 +21,9 @@ We are a peer support network of DPhil candidates within the Doctoral Training C
 We have 4 main goals at the Coding Dojo:
 <ul>
 <li> Solve bioinformatics or computer science related issues arising during rotations or DPhil projects. </li>
-<li> Teach applied bioinformatics and computer science by solving actual research problems while touching basic principles on the go. </li>
-<li> Establish a network of peer support. Participants should learn how to help themselves or learn who to ask </li>
-<li> Demonstrators gain experience in teaching and software development and both demonstrators and participants benefit from exposure to a wide range of application areas and approaches. </li>
+<li> Teach applied bioinformatics and computer science by solving actual research problems while introducing basic principles on the go. </li>
+<li> Establish a network of peer support. Participants should learn how to help themselves or learn who to ask. </li>
+<li> Demonstrators gain experience in teaching and software development and both demonstrators and participants will benefit from exposure to a wide range of application areas and approaches. </li>
 </ul>
 
 
@@ -43,7 +43,7 @@ The problems for the week have to be submitted by Monday 5pm of the same week. O
 ## Who can take part?
 <div class="box">
   <p>
-Anyone who is currently enrolled in any programm associated with the Doctoral Training Centre can submit problems or become an expert.
+Anyone who is currently enrolled in any programme associated with the Doctoral Training Centre can submit problems or offer to share their expertise.
 </p>
 </div>
 
@@ -52,7 +52,7 @@ Anyone who is currently enrolled in any programm associated with the Doctoral Tr
 ## Who are the Experts?
 <div class="box">
   <p>o
-Any member of the DTC who feels has some computer related knowledge that others can benefit from can become an expert and will be featured on our expert board. This does not mean you have to be a world class expert to sign up. Similarily you will also not be helping at a problem session without agreeing to do so upon receiveing the problem submission form. Any expert can name Masterclasses which they feel confident in giving
+Any member of the DTC who has some computer related knowledge that others can benefit from can become an expert and will be featured on our expert board. This does not mean you have to be a world class expert to sign up. Similarly, you will also not be asked to provide assistance at a problem session without agreeing to do so upon receiving the problem submission form. Any expert can name Masterclasses which they feel confident in giving
 </p>
 </div>
 
@@ -66,14 +66,14 @@ A masterclass can be anything from a problem that you have solved, to a cool met
 ## What will happen to my data?
 <div class="box">
   <p>
-To ensure the proper handling of your data, we have written a data policy agreement which has to be agreed to before submitting a problem. SABS students may not store or publish their code on a public repository, such as GitHub, without going through the standard SABS DMS to obtain permission from our partners first.  Any data that is protected by a confidentiality agreement, such as from industrial partners or the NHS,  will not be used or published by the Coding Dojo.
+To ensure the proper handling of your data, we have written a data policy agreement which has to be agreed to before submitting a problem. We ask you to confirm that your supervisor is willing for you to share your problem and data at the Dojo before submitting a problem. Please note that SABS students may not store or publish their code on a public repository, such as GitHub, without going through the standard SABS DMS to obtain permission from SABS partner organisations first.  Any data that is protected by a confidentiality agreement, such as from industrial partners or the NHS,  will not be used or published by the Coding Dojo.
 </p>
 </div>
 
 ## What is the data policy agreement?
 <div class="box">
   <p>
-For the purpose of solving problems encountered during the DPhil at the Doctoral Training Centre at the University of Oxford, we, the DTC Coding Dojo, need to gather information related to the problems at hand. This information can include data generated during the DPhil or data generated by others which is subject to analysis or modification during the DPhil. The data will be temporarily stored on the laptop which is used for demonstration purposes. Afterwards code will be written to analyse or modify the data. The code is published only if the student agrees to do so. The data will be permanently removed from the laptop used during the session after the completion of the session. The problem solving will be performed to an audience of fellow DPhil students of the Doctoral Training Centre. During the sessions the data could be seen by other DPhil students. If the student agrees, the data can be made publicly available alongside the code. This data policy agreement ensures that the temporary storage and viewing of the data complies with the data policy agreements of the DPhil project of the student, involving any Principal investigator, supervisors or industrial partners involved in the DPhil project. It lies within the responsibility of the student submitting the problem to check whether our use of data complies with any agreements made beforehand regarding the data related to the problem we discuss. We as the DTC Coding Dojo take no responsibility if this policy agreement breaches previous agreements. 
+For the purpose of solving problems encountered during the DPhil at the Doctoral Training Centre at the University of Oxford, we, the DTC Coding Dojo, need to gather information related to the problems at hand. This information can include data generated during the DPhil or data generated by others which is subject to analysis or modification during the DPhil. The data will be temporarily stored on the laptop which is used for demonstration purposes. At the Dojo code will be written to analyse or modify the data. The code is published only if the student agrees to do so. The data will be permanently removed from the laptop used during the session after the completion of the session. The problem solving will be performed to an audience of fellow DPhil students of the Doctoral Training Centre. During the sessions the data and code could be seen by other DPhil students. If the student agrees, the data can be made publicly available alongside the code. This data policy agreement ensures that the temporary storage and viewing of the data complies with the data policy agreements of the DPhil project of the student, involving any Principal investigator, supervisors or industrial partners involved in the DPhil project. It lies within the responsibility of the student submitting the problem to check whether our use of data complies with any agreements made beforehand regarding the data related to the problem we discuss. We as the DTC Coding Dojo take no responsibility if this policy agreement breaches previous agreements. 
 </p>
 </div>
 

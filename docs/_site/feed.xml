@@ -3,10 +3,10 @@
   <channel>
     <title>DTC Coding Dojo</title>
     <description>The DTC coding dojo webpage</description>
-    <link>https://dtc-coding-dojo.github.io/Code-generated-during-problem-solving-sessions/</link>
-    <atom:link href="https://dtc-coding-dojo.github.io/Code-generated-during-problem-solving-sessions/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Jun 2018 17:24:10 +0100</pubDate>
-    <lastBuildDate>Sat, 02 Jun 2018 17:24:10 +0100</lastBuildDate>
+    <link>http://dtccodingdojo.co.uk/</link>
+    <atom:link href="http://dtccodingdojo.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 02 Jun 2018 17:28:58 +0100</pubDate>
+    <lastBuildDate>Sat, 02 Jun 2018 17:28:58 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;this is more test messages&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 May 2018 00:00:00 +0100</pubDate>
-        <link>https://dtc-coding-dojo.github.io/Code-generated-during-problem-solving-sessions/blog/test/</link>
-        <guid isPermaLink="true">https://dtc-coding-dojo.github.io/Code-generated-during-problem-solving-sessions/blog/test/</guid>
+        <link>http://dtccodingdojo.co.uk/blog/test/</link>
+        <guid isPermaLink="true">http://dtccodingdojo.co.uk/blog/test/</guid>
         
         
       </item>

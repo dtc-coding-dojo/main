@@ -99,7 +99,14 @@ sitemap:
 <b> Available Masterclasses: </b> data manipulation and statistics in R, Circular statistics course, How to analyze animal tracking data
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
+## Sofia Minano Gonzalez
+### Interdisciplinary Biosciences DTP
+<b> Biosciences related topics: </b>  Data analysis, data visualisation <br>
+<b> Computer science related topics: </b>CAD, optimisation, simulation, controllers design, animation, signal processing <br>
+<b> Knowledge of general tools: </b> CATIA, Matlab, Blender, Spyder (Anaconda), GitLab, MeshLab <br>
 
+
+<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../you.png" | absolute_url }}" alt="" /> </p>
 ## Interested?
 We can always use more experts! If you feel you have any computer related knowledge that people in the DTC can benfit from let us know. You can join us at any time just by filling out our <a href="https://goo.gl/forms/UZMi55jxN4lKMzrc2"> expert form</a>. Also if you are an expert on our team and want to add any knowledge you have gained to your profile here just fill out the form again.

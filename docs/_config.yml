@@ -3,13 +3,10 @@ title:              DTC Coding Dojo
 bio:                'The DTC coding dojo webpage'
 description:        "The DTC coding dojo webpage"
 locale:             en_US
-<<<<<<< HEAD
 baseurl: "https://dtc-coding-dojo.github.io/main/" # the subpath of your site, e.g. /blog
 url: ""# the base hostname & protocol for your site
-=======
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dtc-coding-dojo.github.io/main/"# the base hostname & protocol for your site
->>>>>>> dd115f14f64e13a02a6a39c34215a894d77ec79b
 
 remote_theme: iwiedenm/jekyll-theme-massively-src
 

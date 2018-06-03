@@ -6,6 +6,9 @@ locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dtc-coding-dojo.github.io/Code-generated-during-problem-solving-sessions/"# the base hostname & protocol for your site
 
+remote_theme: iwiedenm/jekyll-theme-massively-src
+
+
 defaults:
 - scope:
     path: ''

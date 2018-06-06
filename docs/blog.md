@@ -100,6 +100,7 @@ sitemap:
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
+<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../sofi_minano.png" | absolute_url }}" alt="" /> </p>
 ## Sofia Minano Gonzalez
@@ -107,6 +108,23 @@ sitemap:
 <b> Biosciences related topics: </b>  Data analysis, data visualisation <br>
 <b> Computer science related topics: </b>CAD, optimisation, simulation, controllers design, animation, signal processing <br>
 <b> Knowledge of general tools: </b> CATIA, Matlab, Blender, Spyder (Anaconda), GitLab, MeshLab <br>
+
+
+<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
+
+<p style="text-align:center;"> <img class="center" height="200" src="{{ "../ines_barreiros.png" | absolute_url }}" alt="" /> </p>
+## Ines Barreiros
+### Interdisciplinary Biosciences DTP
+<b> Computer science related topics: </b> Python, Matlab , coding practice, <br>
+<b> Knowledge of general tools: </b> advanced MS Office<br>
+
+
+<p style="text-align:center;"> <img class="center" height="200" src="{{ "../rona_costello.png" | absolute_url }}" alt="" /> </p>
+## Rona Costello
+### Interdisciplinary Biosciences DTP
+<b> Biosciences related topics: </b>  Phylogenetics, bioinformatics, genomics, proteomics, ancestral strat reconstruction <br>
+<b> Computer science related topics: </b>Python, R, bash <br>
+<b> Knowledge of general tools: </b> Dendroscope, ETE3, Biopython, cinema5 <br>
 
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>

@@ -118,6 +118,7 @@ sitemap:
 <b> Computer science related topics: </b> Python, Matlab , coding practice, <br>
 <b> Knowledge of general tools: </b> advanced MS Office<br>
 
+<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../rona_costello.png" | absolute_url }}" alt="" /> </p>
 ## Rona Costello

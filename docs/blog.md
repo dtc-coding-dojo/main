@@ -35,7 +35,7 @@ sitemap:
 
 
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../sara_beth_amos.png" | absolute_url }}" alt="" /> </p>
-## Sara-Beth Amos
+## Sarah-Beth Amos
 ### iCASE
 <b> Biosciences related topics: </b> Computer simulation, markov state models, molecular dynamics simulations <br>
 <b> Computer science related topics: </b> Python, matlab, R, bash scripting, Anaconda, data analysis, statistics <br>

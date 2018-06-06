@@ -98,9 +98,8 @@ sitemap:
 <b> Computer science related topics: </b> R, Windows and Mac machines <br>
 <b> Available Masterclasses: </b> data manipulation and statistics in R, Circular statistics course, How to analyze animal tracking data
 
-<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <imfsdfg class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
-<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../sofi_minano.png" | absolute_url }}" alt="" /> </p>
 ## Sofia Minano Gonzalez
@@ -121,6 +120,7 @@ sitemap:
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../rona_costello.png" | absolute_url }}" alt="" /> </p>
+
 ## Rona Costello
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b>  Phylogenetics, bioinformatics, genomics, proteomics, ancestral strat reconstruction <br>

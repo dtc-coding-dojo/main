@@ -114,8 +114,9 @@ sitemap:
 <p style="text-align:center;"> <img class="center" height="200" src="{{ "../ines_barreiros.png" | absolute_url }}" alt="" /> </p>
 ## Ines Barreiros
 ### Interdisciplinary Biosciences DTP
-<b> Computer science related topics: </b> Python, Matlab , coding practice, <br>
-<b> Knowledge of general tools: </b> advanced MS Office<br>
+<b> Biosciences related topics: </b> Behavioural and neuronal data analysis
+<b> Computer science related topics: </b> Python, Matlab, good coding practices <br>
+<b> Knowledge of general tools: </b>  Github, Spider (Anaconda), Matplotlib <br>
 
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>

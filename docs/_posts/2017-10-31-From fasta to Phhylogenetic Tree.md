@@ -69,7 +69,12 @@ Lets go through the different arguments. -m denotes the substitution matrix, whi
 Once RaxML has run it will produce several outfiles. The one you should be interested in and you would want to look at is the .bipartitions.output. 
 
 ### Looking at the Tree
-My favourite Tree viewer it [ITOL](https://itol.embl.de/) which is online and requires no software to be downloaded. It handles large dataset particularly well. There are loads of features which are really helpful at exploring your tree. For example you could add a dataset with the sequence headers as the first entry in a row and any number or text as the row. The numbers will then be displayed as bar charts outside your tree and the text will be displayed. For our tree one of the most informative criteria is the display bootstraps in the advanced section. Here you can visualise how much you should trust every node (even with different colours or shapes). The branch lengths will be mutational differences between sequences and longer branches denote more dissimilar sequences. I recommend you load the example dataset of the tree of life and play around with it to see how much ITOL can do!
+My favourite Tree viewer it [ITOL](https://itol.embl.de/) which is online and requires no software to be downloaded. It handles large dataset particularly well. There are loads of features which are really helpful at exploring your tree. For example you could add a dataset with the sequence headers as the first entry in a row and any number or text as the row. The numbers will then be displayed as bar charts outside your tree and the text will be displayed. For our tree one of the most informative criteria is the display bootstraps in the advanced section. Here you can visualise how much you should trust every node (even with different colours or shapes). The branch lengths will be mutational differences between sequences and longer branches denote more dissimilar sequences. I recommend you load the example dataset of the tree of life and play around with it to see how much ITOL can do, here is an example of what this could look like:
+
+<p style="text-align:center;"> <img class="center" height="600" src="{{ "../phylogenetic_intro.png" | absolute_url }}" alt="" /> </p>
+
+
+
 
 ### Disclaimer
 This post was written by Nicolas Arning and although I have worked in the field for a few years now I am not even close to knowing everything about phylogenetic and genomics. If you have anything to remark or improve I'll be very happy to receive feedback under nicolas.arning@bdi.ox.ac.uk'

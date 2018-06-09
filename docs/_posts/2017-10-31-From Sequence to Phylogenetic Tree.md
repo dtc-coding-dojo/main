@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From Fasta to Phylogentic Tree"
+title:  "From Sequence to Phylogentic Tree"
 date:   2018-05-08
 excerpt: "Masterclass"
 image: "../phylogenetic_intro.png"

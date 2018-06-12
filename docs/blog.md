@@ -9,7 +9,7 @@ sitemap:
 ---
 
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../cvpic.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../cvpic.png" | absolute_url }}" alt="" /> </p>
 ## Nicolas Arning
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b> Eukaryotic/viral/bacterial genomics, Statistical genetics, Sequencing <br>
@@ -22,7 +22,7 @@ sitemap:
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../ka_ho_tan.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../ka_ho_tan.png" | absolute_url }}" alt="" /> </p>
 ## Ka Ho Tam
 ### ONBI CDT
 <b> Biosciences related topics:  </b> Imaging, Automation, Ray tracing <br>
@@ -34,7 +34,7 @@ sitemap:
 
 
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../sara_beth_amos.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../sara_beth_amos.png" | absolute_url }}" alt="" /> </p>
 ## Sarah-Beth Amos
 ### iCASE
 <b> Biosciences related topics: </b> Computer simulation, markov state models, molecular dynamics simulations <br>
@@ -57,7 +57,7 @@ sitemap:
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../andreas_kjaer.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../andreas_kjaer.png" | absolute_url }}" alt="" /> </p>
 ## Andreas Kjaer
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b> Molecular Dynamics and Structural bioinformatics <br>
@@ -70,7 +70,7 @@ sitemap:
 
 
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../thomas_pak.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../thomas_pak.png" | absolute_url }}" alt="" /> </p>
 ## Thomas Pak
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b> Mathematical modelling <br>
@@ -91,7 +91,7 @@ sitemap:
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../joe_wynn.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../joe_wynn.png" | absolute_url }}" alt="" /> </p>
 ## Joe Wynn
 ### Interdisciplinary Biosciences DTP 
 <b> Biosciences related topics: </b> Statistics (for biologists), specifically circular statistics <br>
@@ -101,7 +101,7 @@ sitemap:
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../sofi_minano.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../sofi_minano.png" | absolute_url }}" alt="" /> </p>
 ## Sofia Minano Gonzalez
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b>  Data analysis, data visualisation <br>
@@ -111,7 +111,7 @@ sitemap:
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../ines_barreiros.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../ines_barreiros.png" | absolute_url }}" alt="" /> </p>
 ## Ines Barreiros
 ### Interdisciplinary Biosciences DTP
 <b> Biosciences related topics: </b> Behavioural and neuronal data analysis <br>
@@ -120,7 +120,7 @@ sitemap:
 
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../rona_costello.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../rona_costello.png" | absolute_url }}" alt="" /> </p>
 
 ## Rona Costello
 ### Interdisciplinary Biosciences DTP
@@ -130,6 +130,6 @@ sitemap:
 
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
-<p style="text-align:center;"> <img class="center" height="400" src="{{ "../you.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="300" src="{{ "../you.png" | absolute_url }}" alt="" /> </p>
 ## Interested?
 We can always use more experts! If you feel you have any computer related knowledge that people in the DTC can benfit from let us know. You can join us at any time just by filling out our <a href="https://goo.gl/forms/UZMi55jxN4lKMzrc2"> expert form</a>. Also if you are an expert on our team and want to add any knowledge you have gained to your profile here just fill out the form again.

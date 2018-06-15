@@ -130,6 +130,13 @@ sitemap:
 
 
 <p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
+
+## Steven Walsh
+### Interdisciplinary Biosciences DTP
+<b> Biosciences related topics: </b>  Anlaysis on next generation sequencing data, (ATAC seq/ CHIP seq), Linux, analysis of Mass Spec data <br>
+<b> Computer science related topics: </b> Perl, Python, Java <br>
+
+<p style="text-align:center;"> <img class="center" src="{{ "../separator.png" | absolute_url }}" alt="" /> </p>
 <p style="text-align:center;"> <img class="center" height="300" src="{{ "../you.png" | absolute_url }}" alt="" /> </p>
 ## Interested?
 We can always use more experts! If you feel you have any computer related knowledge that people in the DTC can benfit from let us know. You can join us at any time just by filling out our <a href="https://goo.gl/forms/UZMi55jxN4lKMzrc2"> expert form</a>. Also if you are an expert on our team and want to add any knowledge you have gained to your profile here just fill out the form again.

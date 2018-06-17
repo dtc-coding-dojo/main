@@ -36,6 +36,10 @@ On the right hand side of the top of htop you can see how many task you currentl
 
 So if your computer is having trouble this is where it came from. This is the list of processes whereing the culprit sits that is hurting your computer. The difficult thing is finding out who specifically is causing problems. So if your system is slowly grinding to a halt you need to figure out why in the top section of the screen. It's mostly either to ram filling up or cores being overused. When you press F6 you can sort the list of process by it's core and memory usage and kill the most demanding one. You kill a process by pressing F9 and then sending signals to the process. There are two main ones for stopping a process: SIGTERM and SIGKILL. SIGTERM is asking the process nicely to finish up and close down whereas SIGKILL just pulls the plug and ends the process. One should always use the former before resorting to the latter. 
 
-So now we understand the command center we can focus on the most powerfull tools that are provided in bash
+So now we understand the command center we can focus on the most powerful tools that are provided in bash
 
 ### The Bash Toolkit
+
+This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen.
+
+#####man

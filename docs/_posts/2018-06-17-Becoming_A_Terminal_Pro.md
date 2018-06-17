@@ -23,7 +23,7 @@ when you open htop it can be quite overwhelming at first but let us start at the
 
 This is where htop shows you how busy each core is in percentage. You will notice my computer shows 8 cores here, which is actually not true it is 4 virtual cores running on 2 physical cores. If htop shows here that everything is close to 100% you will have serious difficulties operating your computer because you are giving it more things to process than it can.
 
-<p style="text-align:center;"> <img class="center" height="300" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="700" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
 
 Just below you can see the computers memory on the upper left side. If this bar is close to full you are putting more things on your desk than you can fit, which will again make your computer unresponsive. When a computer completely fills up his memory there is essentially no way out but pulling the plug. That is exactly why Swap was invented, which you can see right below. Swap is basicallly part of your harddrive (the file cabinet in the metaphor) pretending to be ram. It is a lot slower than ram because the harddrive can not read and write as quickly as ram. When your ram fills up the computer wil lstart putting things into swap, which will severely slow things down, but at least it will not completely crash your computer.
 

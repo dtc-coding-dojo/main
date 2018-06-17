@@ -40,7 +40,22 @@ So now we understand the command center we can focus on the most powerful tools 
 
 ### The Basic Bash Toolkit
 
-This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen.
+This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen. 
+
+Some of the commands i will describe can be chained together which is called piping in programming. Piping will take the output from one command and use it as an input for another command without you having to do that manually. | is called the pype sympol and separates different commands in a chain like so:
+
+```
+(command_1) | (command_2) 
+```
+Similarily you can pipe the output of a program into a text file by using the > sign like so 
+```
+(command_1) | (command_2) > (output)
+```
+Be careful with what output file you specify as the firs action of the > sign is to empty that file. If you want to append to the end of a file use the sign twice like so >>.
+
+A number of the commands you will find are impossible to execute and produce an error message along the lines of permission denied. A lot of the security and hence the reliance of programming on linux is due to the use of a super user system. The message you are receiving denotes that you are not a member of the eluded super user group, which to you will make things a lot more difficult. Overall however, keeping super user privilegesto the more experiences users makes linux a good programming playground. Essentially, if you are not a super user linux will keep you from doing things which could damage the system. Commands that could possibly do so are preceded by a sudo which means super user do. If you can not execute a sudo command with your normal user name and password there is no way around asking the administrator of your system to grant you super user rights or find another way to solve your problems.
+
+Having introduced some of the basic concepts of the bash toolkit, here are some of the tools that you can use:
 
 * **man** - Man stands for manual and is the starting point of any command line list, because you can use it to get a lot of information about any commandi in bash. If you do not know what a command is doing just type in man followed by the command and you will be suprised of how much you can gather from here. If man doesn't work most programs have the -h or --help option to give a description about what the programs do'
 
@@ -62,10 +77,16 @@ This section I will structure a little bit to make it more easily digestible. We
 
 * **ln** - Ln is somewhat of a more sophisticated version of the copy command. Instead of copying the file it will put a sign into the folder which points to the location of the original file. This way you can access and modify files without duplicating them, which safes a lot of time and space. This is called a softlink which is produced with the -s flag. When a softlink is deleted, the original file will be untouched making it also very safe to use.
 
-* **df** - 
+* **df** - Stands for disk free and will tell you how much space is used on your disk. It will also lit different partitions which is the way in which we partmentalise computer disks. Partitions are different drawers on the file cabinet that is your disk. Your whole disk could only be one partition or split into many different partitions. Making, removing or resizing partitions is a potentially very dangerous operation which should be kept to more experienced users. A useful flag here as in many other programs is the -h which will translate raw bytesizes into a more human readable byte, kilobyte, megabyte, gigabyte notation. If any of the percentages are very close to 100% and you are actively using that partition or drive, you will soon run into a space issue which you should prevent by removing big files.
 
-### The Jewels of the Bash Toolkit
+* **du** - Is the abbreviation of disk usage and the way to find big files on your system. Going recursively into every downstream folder, du will tell you the size of every folder and file on the way. Again a useful flag is -h which will make the output more digestible. You can sort this list by piping it into sort -n which will give you a sorted list of files in order of their size.
 
+* **find** - Does exactly what it promises it finds files. After noting which directory you want to look at staight after the find command you need to specify your searching criteria. You can use globbing like we introduced in the rm command. For example find . -name "\*.fa" will find every fasta file withing every file and subfolder of the current directory (denoted by the dot). Find will return a list of the paths of every file it found. If you want to use another command on the files you found you can do so straight away by using the -exec flag. This flag has a special syntax where {} is the placeholde of the files you found and the line end of the command has to be noted by \;. For example find . -name "\*.fa" -exec mafft {} \; will run the alignment program mafft on every fasta file it finds (see last weeks report for an intro to mafft).
+
+* **watch** - Exectutes any command you give it repeatedly in two second intervals. If you want to change the time interval you can use -n to tell watch how many seconds it should wait between execution. With -d you can tell watch to highlight differences in output between the last iteration of the command. For example by typing watch -n 60 -d ls you can watch in real time what files are created in a folder with changes being highlighted. This can be very useful if you are executing programs which generate a lot of different files as output. 
+
+This is the first set of useful tools which come shipped with bash and I highly encourage you to play with them pipe them into different other programs and see what they do. There are limitless combinations of how you can stick different commands together to make them do really complicated tasks. This is only the first part of a two part masterclass dedicated to the bash terminal. Next week we will talk about text related programs like grep and sed which are some of the most useful commands in bioinformatics 
+I can image.
 
 
 

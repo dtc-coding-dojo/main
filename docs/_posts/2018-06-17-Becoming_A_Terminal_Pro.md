@@ -19,15 +19,15 @@ sudo apt-get install htop
 ```
 when you open htop it can be quite overwhelming at first but let us start at the top.
 
-<p style="text-align:center;"> <img class="center" height="100" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="50" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
 
 This is where htop shows you how busy each core is in percentage. You will notice my computer shows 8 cores here, which is actually not true it is 4 virtual cores running on 2 physical cores. If htop shows here that everything is close to 100% you will have serious difficulties operating your computer because you are giving it more things to process than it can.
 
-<p style="text-align:center;"> <img class="center" height="100" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="50" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
 
 Just below you can see the computers memory on the upper left side. If this bar is close to full you are putting more things on your desk than you can fit, which will again make your computer unresponsive. When a computer completely fills up his memory there is essentially no way out but pulling the plug. That is exactly why Swap was invented, which you can see right below. Swap is basicallly part of your harddrive (the file cabinet in the metaphor) pretending to be ram. It is a lot slower than ram because the harddrive can not read and write as quickly as ram. When your ram fills up the computer wil lstart putting things into swap, which will severely slow things down, but at least it will not completely crash your computer.
 
-<p style="text-align:center;"> <img class="center" height="300" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" height="50" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
 
 
 On the right hand side of the top of htop you can see how many task you currently have open. This will seem like a lot but most are not active. In my case only 2 are actively runnning. Right below you will find the Load average which is a very important number to take into account. The load average tells you how many cores you are using on average (first number is averaged over one minute second number is averaged over 5 minutes and third number is averaged over 15 minutes). If your load average is equal to or higher than number of cores that show up at the top of the screen you are asking too much of your computer and you should consider killing some tasks. An optimum for handling a lot of work while still acttively using your computer is a load average of 2 or 3 lower than the number of virtual cores. Just below the uptime will tell you how long your computer has been switched on.
@@ -43,3 +43,4 @@ So now we understand the command center we can focus on the most powerful tools 
 This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen.
 
 #####man
+Man stands for manual and is the starting point of any command line list, because you can use it to get a lot of information about any commandi in bash. If you do not know what a command is doing just type in man followed by the command and you will be suprised of how much you can gather from here.

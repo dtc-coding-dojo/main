@@ -38,10 +38,34 @@ So if your computer is having trouble this is where it came from. This is the li
 
 So now we understand the command center we can focus on the most powerful tools that are provided in bash
 
-### The Bash Toolkit
+### The Basic Bash Toolkit
 
 This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen.
 
 * **man** - Man stands for manual and is the starting point of any command line list, because you can use it to get a lot of information about any commandi in bash. If you do not know what a command is doing just type in man followed by the command and you will be suprised of how much you can gather from here. If man doesn't work most programs have the -h or --help option to give a description about what the programs do'
 
 * **ls** - ls lists all the files in the directory you're in which is quite basic. You can get a lot more info with ls -lhtr, which lists all files with human readable (h) file sizes (l) in reverse (r) chronological (t) order. This way you can always stay on top what was most recently created
+
+* **cd** - changes directories into whatever you specify after. If you do not specify anything it will take you back to your home directory, which can also be noted as ~. Two dots get you back a directory
+
+* **pwd** - Gives you the full path of what directory you are in
+
+* **rm** - Removes whatever you give it to. Especially dangerous when you use it with globbing, which is when you use special characters that stand in for multiple different characters. The star (\*) is one of the most useful here which extends to any character or number of characters. For example \*.txt would give you all files ending in .txt. As powerful as it is, it is alos very dangerous. Rm \* will irretrievably remove every single file in the current directory. Directories need to be removed with -r which means recursive. Always handle rm with care.
+
+* **touch** - Creates a file with a name that you can specify after the touch command.
+
+* **mkdir** - Similar to touch but creates a directory
+
+* **cp** - Copies the first argument after into the location of the second item after the command. -v which means verbose is quite helpful as it tells you more about what it is doing at the moment. However if cp fails you would need to restart it from scratch and for big folders that can be very annoying. I reccommend rsync instead, which is essentially the same but will synchronise two folders instead of just copying files. If rsync fails you can restart it and it will pick up where it left off. -u is also a useful option for both cp and rsync which only copies files which are newer than versions of the file in the new destination.
+
+* **mv** - Moves files from whatever you specify first to whatever you specify seconf. Be careful not to overwrite important files.
+
+* **ln** - Ln is somewhat of a more sophisticated version of the copy command. Instead of copying the file it will put a sign into the folder which points to the location of the original file. This way you can access and modify files without duplicating them, which safes a lot of time and space. This is called a softlink which is produced with the -s flag. When a softlink is deleted, the original file will be untouched making it also very safe to use.
+
+* **df** - 
+
+### The Jewels of the Bash Toolkit
+
+
+
+

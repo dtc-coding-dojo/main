@@ -19,20 +19,20 @@ sudo apt-get install htop
 ```
 when you open htop it can be quite overwhelming at first but let us start at the top.
 
-<p style="text-align:center;"> <img class="center" width="1000" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="800" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
 
 This is where htop shows you how busy each core is in percentage. You will notice my computer shows 8 cores here, which is actually not true it is 4 virtual cores running on 2 physical cores. If htop shows here that everything is close to 100% you will have serious difficulties operating your computer because you are giving it more things to process than it can.
 
-<p style="text-align:center;"> <img class="center" width="1000" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="800" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
 
 Just below you can see the computers memory on the upper left side. If this bar is close to full you are putting more things on your desk than you can fit, which will again make your computer unresponsive. When a computer completely fills up his memory there is essentially no way out but pulling the plug. That is exactly why Swap was invented, which you can see right below. Swap is basicallly part of your harddrive (the file cabinet in the metaphor) pretending to be ram. It is a lot slower than ram because the harddrive can not read and write as quickly as ram. When your ram fills up the computer wil lstart putting things into swap, which will severely slow things down, but at least it will not completely crash your computer.
 
-<p style="text-align:center;"> <img class="center" width="1000" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="800" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
 
 
 On the right hand side of the top of htop you can see how many task you currently have open. This will seem like a lot but most are not active. In my case only 2 are actively runnning. Right below you will find the Load average which is a very important number to take into account. The load average tells you how many cores you are using on average (first number is averaged over one minute second number is averaged over 5 minutes and third number is averaged over 15 minutes). If your load average is equal to or higher than number of cores that show up at the top of the screen you are asking too much of your computer and you should consider killing some tasks. An optimum for handling a lot of work while still acttively using your computer is a load average of 2 or 3 lower than the number of virtual cores. Just below the uptime will tell you how long your computer has been switched on.
 
-<p style="text-align:center;"> <img class="center" width="1000" src="{{ "../htop_3.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="800" src="{{ "../htop_3.png" | absolute_url }}" alt="" /> </p>
 
 So if your computer is having trouble this is where it came from. This is the list of processes whereing the culprit sits that is hurting your computer. The difficult thing is finding out who specifically is causing problems. So if your system is slowly grinding to a halt you need to figure out why in the top section of the screen. It's mostly either to ram filling up or cores being overused. When you press F6 you can sort the list of process by it's core and memory usage and kill the most demanding one. You kill a process by pressing F9 and then sending signals to the process. There are two main ones for stopping a process: SIGTERM and SIGKILL. SIGTERM is asking the process nicely to finish up and close down whereas SIGKILL just pulls the plug and ends the process. One should always use the former before resorting to the latter. 
 

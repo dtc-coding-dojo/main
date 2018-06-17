@@ -17,6 +17,10 @@ So now that we have covered some of the theory of how a computer works I want yo
 ```
 sudo apt-get install htop
 ```
+when you open htop it can be quite overwhelming at first but let us start at the top.
+
+<p style="text-align:center;"> <img class="center" height="600" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
+
 
 
 

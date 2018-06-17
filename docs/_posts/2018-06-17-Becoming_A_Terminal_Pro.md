@@ -42,5 +42,4 @@ So now we understand the command center we can focus on the most powerful tools 
 
 This section I will structure a little bit to make it more easily digestible. We are going to walk through and explain some of the most important built in commands of bash ranging from more basic to more complex tasks. I will also handpick some of the most useful command flags, which are the extra options you can specify introduced with a hyphen.
 
-#####man
-Man stands for manual and is the starting point of any command line list, because you can use it to get a lot of information about any commandi in bash. If you do not know what a command is doing just type in man followed by the command and you will be suprised of how much you can gather from here.
+* **man** - Man stands for manual and is the starting point of any command line list, because you can use it to get a lot of information about any commandi in bash. If you do not know what a command is doing just type in man followed by the command and you will be suprised of how much you can gather from here.

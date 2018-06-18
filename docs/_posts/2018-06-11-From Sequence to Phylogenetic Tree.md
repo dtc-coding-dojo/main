@@ -3,7 +3,7 @@ layout: post
 title:  "From Sequence to Phylogentic Tree"
 date:   2018-06-11
 excerpt: "Masterclass"
-image: "/images/phylogenetic_intro.png"
+image: "/images/phylogenetic_intro.jpg"
 ---
 
 

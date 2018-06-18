@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Becoming a Terminal Pro - Part 1"
-date:   2018-06-11
+date:   2018-06-17
 excerpt: "Masterclass"
-image: "/images/proatterminal.png"
+image: "/images/proatterminal.jpg"
 ---
 
 ### The Basics

@@ -3,7 +3,7 @@ layout: post
 title:  "From Sequence to Phylogentic Tree"
 date:   2018-06-11
 excerpt: "Masterclass"
-image: "../phylogenetic_intro.png"
+image: "assets/icon/phylogenetic_intro.png"
 ---
 ### The Problem
 Often when trying to analyse sequences of any kind you will find yourself interested in the relationships between them. From trying to infer relatedness between species or trying to figure out which genes have a common origin, a lot of information can be drawn from the pure amino acid or nucleotide composition. One of the most intuitive way of displaying relationships between sequences is a phylogenetic tree, which is exactly what we're trying to produce in this session.

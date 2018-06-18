@@ -21,19 +21,19 @@ sudo apt-get install htop
 ```
 when you open htop it can be quite overwhelming at first but let us start at the top and make our way through the different fields.
 
-<p style="text-align:center;"> <img class="center" width="600" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="900" src="{{ "../htop_1.png" | absolute_url }}" alt="" /> </p>
 
 This is where htop shows you in percentage how busy each core is. You will notice my computer shows 4 cores here, which is actually not true it is 4 virtual cores running on 2 physical cores. If htop shows that every core is close to 100% usage you will have serious difficulties operating, because you are giving the computer more things to process than it can handle efficiently.
 
-<p style="text-align:center;"> <img class="center" width="600" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="900" src="{{ "../htop_2.png" | absolute_url }}" alt="" /> </p>
 
 Just below you can see the computers memory on the upper left side. If this bar is close to full you are putting more things on your desk than you can fit, which will again make your computer unresponsive. When a computer completely fills up his memory there is essentially no way out but pulling the plug. That is exactly why Swap was invented, which you can see right below. Swap is a part of your hard-drive (the file cabinet in the metaphor) pretending to be Ram. It is a lot slower than Ram because the hard-drive can not read and write as quickly. When your Ram fills up the computer will start putting things into Swap, which will severely slow things down, but at least it will not completely crash.
 
-<p style="text-align:center;"> <img class="center" width="600" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="900" src="{{ "../htop_4.png" | absolute_url }}" alt="" /> </p>
 
 On the right hand side of the top of htop you can see how many task you currently have open. This will seem like a lot but most are not active. In my case only 2 are actively running. Right below you will find the Load average which is a very important indicator of how well things are going. The load average tells you how many cores you are using on average (the first number is averaged over one minute, the second number is averaged over 5 minutes and the third number is averaged over 15 minutes). If your load average is equal to, or higher, than the number of cores that show up at the top of the screen you are asking too much of your computer and you should consider killing some tasks. An optimum for handling a lot of work while still actively using your computer is a load average of 2 or 3 lower than the number of cores that show up at the top. Just below, the uptime will tell you how long your computer has been switched on for.
 
-<p style="text-align:center;"> <img class="center" width="600" src="{{ "../htop_3.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="900" src="{{ "../htop_3.png" | absolute_url }}" alt="" /> </p>
 
 So if your computer is having trouble this is where it came from. This is the list of processes wherein the culprit sits. The difficult thing is finding out who specifically is causing problems. So if your system is slowly grinding to a halt you need to figure out why in the top section of the screen. It's mostly either due to ram filling up or cores being overused. When you press F6 you can sort the list of process by it's core and memory usage and kill the most demanding one. You kill a process by pressing F9 and then sending signals to the process. There are two main ones for stopping a process: SIGTERM and SIGKILL. SIGTERM is asking the process nicely to finish up and close down, whereas SIGKILL just pulls the plug and ends the process. One should always use the former before resorting to the latter. Processes are organised in parent and child processes, if you kill the parent all its children will also die. If a task spawns very demanding child processes it is easier and quicker to kill the parent. Press F5 to see a hierarchical view of which processes are child- and parent processes
 

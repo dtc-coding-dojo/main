@@ -3,7 +3,7 @@ layout: post
 title:  "Becoming a Terminal Pro - Part 1"
 date:   2018-06-11
 excerpt: "Masterclass"
-image: "assets/icon/proatterminal.png"
+image: "assets/images/proatterminal.png"
 ---
 ### The Basics
 Using the terminal properly can make your life a lot easier and your analyses a lot quicker. The terminal of Linux and Max machines runs the Bourne-again shell abbreviated as Bash. Bash is your way to communicate with your computer directly and can save you a good deal of programming. Before we can communicate we first have to understand who we are talking to, so we will start this report with some of the basics.

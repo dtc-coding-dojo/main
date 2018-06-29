@@ -547,35 +547,45 @@ it, the file descriptor.  The file descriptors `0`, `1` and `2` are
 file, meaning that stdin reads from the terminal, and stdout and stderr write
 to the terminal.
 
-![Default files for stdin, stdout and stderr.](default.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/default.png" | absolute_url }}" alt="Default files for stdin, stdout
+and stderr." /> </p>
 
 Using the redirection operator `n> file`, where `n` is the file descriptor, we
 can associate different output files to stdout and stderr.  When `n` is
 omitted, the redirection defaults to stdout (file descriptor 1).
 
-![Redirect stdout to `output_file` (`cmd > output_file`).](redirect_stdout.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/redirect_stdout.png" | absolute_url }}" alt="Redirect stdout to
+`output_file` (`cmd > output_file`)." /> </p>
 
-![Redirect stderr to `error_log` (`cmd 2> error_log`).](redirect_stderr.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/redirect_stderr.png" | absolute_url }}" alt="Redirect stderr to
+`error_log` (`cmd 2> error_log`)." /> </p>
 
 Stdout and stderr can be redirected to the same file by redirecting stderr to
 stdout after redirecting stdout, e.g.\ `cmd > output_file 2>&1`.  You can also
 use the Bash shorthand `cmd &> output_file`, which has the same effect.
 
-![Redirect stdout and stderr to `output_file` (`cmd &>
-output_file`).](redirect_stdout_stderr.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/redirect_stdout_stderr.png" | absolute_url }}" alt="Redirect stdout
+and stderr to `output_file` (`cmd &> output_file`)." /> </p>
 
 Similarly, you can specify stdin to be linked to a regular file instead of the
 terminal.  The redirection operator for input files is `n< file`.  When `n` is
 omitted, the redirection defaults to stdin (file descriptor 0).
 
-![Redirect stdin to `input_file` (`cmd < input_file`).](redirect_stdin.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/redirect_stdin.png" | absolute_url }}" alt="Redirect stdin to
+`input_file` (`cmd < input_file`)." /> </p>
 
 You are allowed to perform as many redirections as you like in the same
 command.
 
-![Redirect stdin to `input_file`, stdout to `output_file` and stderr to
-`error_log` (`cmd < input_file > output_file 2>
-error_log`).](redirect_stdin_stdout_stderr.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/redirect_stdin_stdout_stderr.png" | absolute_url }}" alt="Redirect
+stdin to `input_file`, stdout to `output_file` and stderr to `error_log` (`cmd
+< input_file > output_file 2> error_log`)." /> </p>
 
 When you pipe two commands, Bash first creates a pipe, which has a write-end
 and a read-end.  The stdout of the first command is redirected to the write-end
@@ -583,8 +593,9 @@ of the pipe and the stdin of the second command is redirected to the read-end
 of the pipe.  The pipe is a special type of file that copies its input to its
 output.
 
-![Pipe stdout of first command to stdin of second command (`cmd1 |
-cmd2`).](pipe.png)
+<p style="text-align:center;"> <img class="center" width="900" src="{{
+"/images/pipe.png" | absolute_url }}" alt="Pipe stdout of first command to
+stdin of second command (`cmd1 | cmd2`)." /> </p>
 
 For more information, see the `REDIRECTION` section in the Bash manpage, as
 well as the `Pipelines` subsection in the `SHELL GRAMMAR` section.

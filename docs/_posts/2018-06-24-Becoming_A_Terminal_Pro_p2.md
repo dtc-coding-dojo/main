@@ -6,7 +6,6 @@ excerpt: "Masterclass"
 image: "/images/proatterminal.jpg"
 ---
 
-# Becoming a Terminal Pro: Part 2
 
 ## The UNIX Philosophy
 

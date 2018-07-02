@@ -1,0 +1,17 @@
+https://plot.ly/python/wind-rose-charts/
+
+https://plot.ly/python/animations/
+
+https://plot.ly/python/visualizing-mri-volume-slices/
+
+https://plot.ly/python/gapminder-example/
+
+https://plot.ly/python/3d-surface-plots/
+
+https://plot.ly/python/3d-scatter-plots/
+
+https://plot.ly/python/ribbon-plots/
+
+https://plot.ly/python/3d-network-graph/
+
+

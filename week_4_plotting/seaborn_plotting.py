@@ -4,26 +4,26 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-##Seaborn comes with examle datasets shipped that we can use to display the plotting functions
-#planets = sns.load_dataset("planets")
+#Seaborn comes with examle datasets shipped that we can use to display the plotting functions
+planets = sns.load_dataset("planets")
 
-##First let's have a look at the dataframe
-#print planets
+#First let's have a look at the dataframe
+print planets
 
-##Here we generate a list of years between 2000 and 2015. Using this range we will plot a factorplot, which counts the number of datapoints in a category and displays the amount of points as height of a barplot. Here our category is years and our datapoints are the planets
-#years = np.arange(2000, 2015)
-#g = sns.factorplot(x="year", data=planets, kind="count")
-#g.set_xticklabels(step=2)
-#plt.show()
+#Here we generate a list of years between 2000 and 2015. Using this range we will plot a factorplot, which counts the number of datapoints in a category and displays the amount of points as height of a barplot. Here our category is years and our datapoints are the planets
+years = np.arange(2000, 2015)
+g = sns.factorplot(x="year", data=planets, kind="count")
+g.set_xticklabels(step=2)
+plt.show()
 
-##Let's load another dataset and look at it
-#gammas = sns.load_dataset("gammas")
-#print gammas
+#Let's load another dataset and look at it
+gammas = sns.load_dataset("gammas")
+print gammas
 
-##now we plot a timescale plot which follows the gamma values over time. There are three different lines in this plot which are the three categories defined in the column ROI. The time is given in the column timepoint. The unit will be used to calculate errors around the line and the value gives the y-values of the line
-#sns.tsplot(data=gammas, time="timepoint", unit="subject",
-           #condition="ROI", value="BOLD signal")
-#plt.show()
+#now we plot a timescale plot which follows the gamma values over time. There are three different lines in this plot which are the three categories defined in the column ROI. The time is given in the column timepoint. The unit will be used to calculate errors around the line and the value gives the y-values of the line
+sns.tsplot(data=gammas, time="timepoint", unit="subject",
+           condition="ROI", value="BOLD signal")
+plt.show()
 
 
 #Next we're going to draw a histogram. For this we first need some data. The following two line will generate a hundred datapoints all normally distributed around 0 with the standard deviation of one

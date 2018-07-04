@@ -1,4 +1,5 @@
 #seaborn is a more advanced plotting library that is written with pandas in mind as a basis. It can draw very advanced plots with very simple commands. You can modify all of the command with additional arguments which you can get from their webpage or simply by using google.
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np

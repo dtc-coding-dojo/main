@@ -4,7 +4,7 @@ Here you can find everything you need to do some very basiv to advanced python p
 git clone https://github.com/dtc-coding-dojo/main/tree/master/week_4_plotting
 ```
 
-and start playing around with it. The code can be run as it is, but I would encourage you to comment out some of the lines ( with a # sign) to see what every line is doing. The progression is supposed to be plotting.py first then 3dplotting.py and finish up with seaborn_plotting.py. For everyone who wants to still more advanced plotting you can check out these links to find some descriptions about the advanced plotting library plotly (try turning around the plots with your mouse):
+and start playing around with it. The code can be run as it is, but I would encourage you to comment out some of the lines ( with a # sign) to see what every line is doing. The progression is supposed to be plotting.py first, then 3dplotting.py, and finally seaborn_plotting.py. For everyone who wants to do still more advanced plotting you can check out these links to find some descriptions about the interactive plotting plotly (try turning around the plots with your mouse):
 
 [Wind Rose Charts](https://plot.ly/python/wind-rose-charts/)
 

@@ -1,4 +1,4 @@
-#this is a basic plotting script in python. We will first read in a csv, which is a table separated by commas. This way you can use this script to plot whatever spreadsheet you are working on by simply saving it as a csv. pandas is a python library that is used for dealing with tables. If you have experience with the programming language R, pandas is the in-house version of R ( with arguably less functionality). Ok so lets import pandas
+#This is a basic plotting script in python. We will first read in a csv, which is a table separated by commas. This way you can use this script to plot whatever spreadsheet you are working on by simply saving it as a csv. pandas is a python library that is used for dealing with tables. If you have experience with the programming language R, pandas is the in-house version of R ( with arguably less functionality). Ok so lets import pandas
 
 import pandas as pd
 

@@ -153,7 +153,7 @@ This essentially forms the basis of the downstream analysis; you are hoping to f
 [Homer](http://homer.ucsd.edu/homer/) is a good place to start for this, as is relatively simple to use, and will carry out a basic differential analysis of your peaks. It is a little less useful for more complex data sets involving multiple replicates and treatments. Once you’re happy with Homer, I would then move to [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) an R program from the [Bioconductor package](https://bioconductor.org/).
 
 # Homer
-You first need to make [Homer tag directories] (http://homer.ucsd.edu/homer/ngs/tagDir.html), these are like .bam files that have been sorted, unfortunately Homer does not accept sorted .BAM files at present but he hopes to in the future. To make the tag directories:
+You first need to make [Homer tag directories](http://homer.ucsd.edu/homer/ngs/tagDir.html), these are like .bam files that have been sorted, unfortunately Homer does not accept sorted .BAM files at present but he hopes to in the future. To make the tag directories:
 
 One for your treated sample and one for the background/control:
 ```

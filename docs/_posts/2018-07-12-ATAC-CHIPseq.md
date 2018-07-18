@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Analysis of CHIP/ATAC sequencing data"
+date:   2018-07-12
+excerpt: "Masterclass"
+image: "/images/chipseq.png"
+---
+
+
 # Analysis of CHIP/ATAC sequencing data
 
 ##Initial analysis

@@ -59,11 +59,11 @@ An Illumina NextSeq machine will output data from the 4 flow cells lanes that yo
 ## Trimming Reads
 This is needed to remove barcode sequences from Fastq reads, although the sequencer often does this for you now. If it is needed you can use:
 
-[Cutadapt] (http://cutadapt.readthedocs.io/en/stable/index.html) a python program
+[Cutadapt](http://cutadapt.readthedocs.io/en/stable/index.html) a python program
 
 ## Aligning Reads
 This step will align your reads from the Fastq files to the reference genome, this allows you to see which genes your reads are located near to.
-To do this use [Bowtie2] (http://bowtie-bio.sourceforge.net/bowtie2/index.shtml).
+To do this use [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml).
 It's a very fast C++ program, although it will still take quite a while on a laptop depending on your processor.
 
 Use the following command for paired end reads:
@@ -86,7 +86,7 @@ bamtools merge -in alignement1.bam -in alignement2.bam -in alignement3.bam -in a
 
 ## Fitering the Alignments
 The aligned reads are then filtered, this is required to remove any hits to mitochondrial DNA, any duplicates from the amplification step of library preparation, and any reads that are not properly paired or aligned.
-Use [Bamtools] (https://github.com/pezmaster31/bamtools) and [Samtools] (https://github.com/samtools/samtools) for this.
+Use [Bamtools](https://github.com/pezmaster31/bamtools) and [Samtools](https://github.com/samtools/samtools) for this.
 
 Remove mitochondrial reads:
 ```
@@ -116,7 +116,7 @@ bamtools index -in sorted_alignment.bam
 ```
 
 ## Peak Calling
-Lots of programs will do this, but due to the complexity of this process, none of them do it particularly well. However, [MACS2] (http://liulab.dfci.harvard.edu/MACS/) is usually considered to be the best of them.
+Lots of programs will do this, but due to the complexity of this process, none of them do it particularly well. However, [MACS2](http://liulab.dfci.harvard.edu/MACS/) is usually considered to be the best of them.
 
 For ATAC use:
 ```
@@ -138,19 +138,19 @@ CHIP: Macs2 callpeak -t alignment.bam -c background.bam -f BAM -n peakfile
 2. A peak called filed in .bed file format (This is small so does not need to be binary)
 
 ## Pipeline
-You should have noticed that the initial analysis, although time consuming is quite straightforward, to that end it is possible to write a simple script in Perl or Python to automate the process. Or if you’re more familiar with Linux, a shell script is perfect for this! Just simply call each program in turn with the correct command, by doing this you can leave your laptop running each program in turn over night. 
+You should have noticed that the initial analysis, although time consuming is quite straightforward, to that end it is possible to write a simple script in Perl or Python to automate the process. Or if you're more familiar with Linux, a shell script is perfect for this! Just simply call each program in turn with the correct command, by doing this you can leave your laptop running each program in turn over night. 
 
 # Downstream Analysis
 This is when we begin to get an idea of whether the experiment has worked!!
 
 ## Visualise in Genome Browser,
 This is a good first step to see if your experiment has worked, you can visualise the coverage of your .bam files, and hopefully you should see the nice peaks that are associated with ATAC/CHIP data.
-The [Integrated Genome Browser] (http://bioviz.org/) can be installed locally.
+The [Integrated Genome Browser](http://bioviz.org/) can be installed locally.
 
 ## Differential Peaks
 This essentially forms the basis of the downstream analysis; you are hoping to find peaks in your treated data that are not present in your control/background data. This indicates for ATAC that an area of DNA has opened in the treated sample, and indicates an open transcription factor binding site in CHIP.
 
-[Homer] (http://homer.ucsd.edu/homer/) is a good place to start for this, as is relatively simple to use, and will carry out a basic differential analysis of your peaks. It is a little less useful for more complex data sets involving multiple replicates and treatments. Once you’re happy with Homer, I would then move to [DiffBind] (https://bioconductor.org/packages/release/bioc/html/DiffBind.html) an R program from the [Bioconductor package] https://bioconductor.org/.
+[Homer](http://homer.ucsd.edu/homer/) is a good place to start for this, as is relatively simple to use, and will carry out a basic differential analysis of your peaks. It is a little less useful for more complex data sets involving multiple replicates and treatments. Once you’re happy with Homer, I would then move to [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) an R program from the [Bioconductor package](https://bioconductor.org/).
 
 # Homer
 You first need to make [Homer tag directories] (http://homer.ucsd.edu/homer/ngs/tagDir.html), these are like .bam files that have been sorted, unfortunately Homer does not accept sorted .BAM files at present but he hopes to in the future. To make the tag directories:
@@ -184,7 +184,7 @@ You need ensure you have installed the correct genome for whatever species your 
 
 This outputs a text file containing lots of information about the genes located near to your peaks. The text file can be opened in open office, and your gene list can be extracted. I usually copy the gene list into a new text file, so it's ready to be uploaded onto websites, or to be used by another program. I copy the entrez gene identifiers because it's a number, so cannot be misinterpreted by websites, and is also species specific.
 
-To begin a gene enrichment analysis, the website [DAVID] (https://david.ncifcrf.gov/) is an easy place to start, simply click on start analysis, copy your gene list, select entrez gene identifier, and then submit. Once the gene list has been accepted, click on 'Functional Annotation Tool' to begin the analysis, there's a nice big arrow above this! This will give you lots of output, including; gene ontology, pathway analysis, tissue expression, protein domain analysis, I suggest you just have a play around with the different links; the pathway analysis is quite useful as you can get it to output a nice figure.
+To begin a gene enrichment analysis, the website [DAVID](https://david.ncifcrf.gov/) is an easy place to start, simply click on start analysis, copy your gene list, select entrez gene identifier, and then submit. Once the gene list has been accepted, click on 'Functional Annotation Tool' to begin the analysis, there's a nice big arrow above this! This will give you lots of output, including; gene ontology, pathway analysis, tissue expression, protein domain analysis, I suggest you just have a play around with the different links; the pathway analysis is quite useful as you can get it to output a nice figure.
 
 If you want to use your differential peak file in another program, you will have to convert it from Homer format back to a normal .bed file; this can be done simply with the following command:
 
@@ -216,6 +216,6 @@ The genome should already have been installed for the annotation step.
 ## Other useful programs
 Here are a couple of other useful programs for analysing CHIP/ATAC seq:
 
-[Picard] (https://broadinstitute.github.io/picard/) You need Java installed to run this, but it has loads of handy tools.
+[Picard](https://broadinstitute.github.io/picard/) You need Java installed to run this, but it has loads of handy tools.
 
-[bedtools] (http://bedtools.readthedocs.io/en/latest/) This is written in C++ so should install easily.
+[bedtools](http://bedtools.readthedocs.io/en/latest/) This is written in C++ so should install easily.

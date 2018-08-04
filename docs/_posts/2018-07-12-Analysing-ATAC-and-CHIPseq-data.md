@@ -7,7 +7,7 @@ image: "/images/chipseq.png"
 ---
 
 
-# Analysis of CHIP/ATAC sequencing data
+### Analysis of CHIP/ATAC sequencing data
 
 ## Initial analysis
 This is fairly straight forward, but often time consuming if using a laptop.

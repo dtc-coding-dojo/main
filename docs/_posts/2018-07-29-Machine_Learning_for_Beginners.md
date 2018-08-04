@@ -3,7 +3,7 @@ layout: post
 title:  "Machine Learning for Beginners"
 date:   2018-06-29
 excerpt: "Masterclass"
-image: "/images/proatterminal.jpg"
+image: "/images/ml_logo.png"
 ---
 
 ### Machine Learning: Blessing or Curse for Science?

@@ -17,14 +17,18 @@ The term Machine Learning was coined in 1959 by a statistician in the field of A
 ### What is Machine Learning?
 However mysterious it might be to the beholder, ML is no black magic. ML is an information lever, it can generate a lot of knowledge from a little knowledge. The more information you put in, the more information ML will put out, which is an important concept to remember when looking at what to feed into the ML. The goal of any ML approach is to make a prediction. Whatever flavour you will use the principle is always to learn underlying structures from as much data as possible (a process called training) and apply that knowledge on new unseen data (a process called generalisation). The data used in training can be labelled so that the algorithm can learn how to differentiate between these labels by learning the characteristics of that class. This is called supervised ML. The unsupervised counter-part deals with unlabelled data to try understand underlying priniciples of how the data was generated. Sticking with the concept of ML as a lever, if there are labels of your data available, they should always be used. In line with this concept there is semi-supervised learning in which there is some labeled data and some unlabeled data, so the information that is contained in the few labels is not lost to unsupervised learning.
 
-Overall supervised and unsupervised learning are the two flavours in which ML comes, which can both do 4 basic tasks:
+Data is often fed to machine learning in spreadsheets. Some are alread formulated in spreadsheets but in problems like image recognition there is some thought necessary to put the problem into a table. The process of extracting features from an object into a ML usable form is called feature extraction and can be quite demanding. 
 
-1. **Classification** divides data into different groups. In training classes are learned by the ML algorithm to then try to divide new unseen data into the classes seen in training. A typical classification task is spam filtering, where the two classes are spam and non-spam. Classification  supervised ML task.
+Overall supervised and unsupervised learning are the two flavours in which ML comes, which are each used for two basic purposes respectively:
 
-2. **Regression** learns the relationship between variables and apply this knowledge to new unseen variables. It can therefore predict the change in a variable that is given to the algorithm. This is often use in finance to do market predictions
+* Supervised Machine Learning
+..* **Classification** divides data into different groups. In training data all samples with the same labeled constitute one class. The algorithm learns the specific characteristics of one class by looking at the data. New unseen data is then divided into the classes seen in training. A typical classification task is spam filtering, where the two labels are spam and non-spam. Classification  supervised ML task.
 
-3. **Clustering** is similar to classification in that it tries to group data. The difference is that classification re 
+..* **Regression** learns the relationship between variables in training and apply this knowledge to new unseen variables. It can therefore predict the change in a variable that is given to the algorithm. For example different labels can be time points.This is often use in finance to do market predictions
 
-4. **Dimensionality Reduction** 
+* Unsupervised Machine Learning
+..* **Clustering** is similar to classification in that it tries to group data by looking at the relationship between samples. However it operates without the information given to classification through the presence of labels.
+
+..* **Dimensionality Reduction** 
 
 Quite often one ML technique can handle multiple of these tasks. A simple linear regression for example can do both a regression and a classification.

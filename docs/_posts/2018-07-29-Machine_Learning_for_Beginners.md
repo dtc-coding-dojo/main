@@ -24,11 +24,13 @@ The resulting table is usually organised in a way that rows are samples of your 
 Overall supervised and unsupervised learning are the two flavours in which ML comes, which are each used for two basic purposes respectively:
 
 * Supervised Machine Learning
+
 ..* **Classification** divides data into different groups. In training data all samples with the same labeled constitute one class. The algorithm learns the specific characteristics of one class by looking at the data. New unseen data is then divided into the classes seen in training. A typical classification task is spam filtering, where the two labels are spam and non-spam. In two dimensional space the border between classes which is used to group new data is called decision boundary.
 
 ..* **Regression** learns the relationship between variables in training and apply this knowledge to new unseen variables. It can therefore predict the change in a variable that is given to the algorithm. For example different labels can be time points.This is often use in finance to do market predictions
 
 * Unsupervised Machine Learning
+
 ..* **Clustering** is similar to classification in that it tries to group data by looking at the relationship between samples. However it operates without the information given to classification through the presence of labels. Clustering can be used to assign labels to every sample in a given cluster. These can then be used for supervised ML.
 
 ..* **Dimensionality Reduction** is a measure that can reduce the burden of having very high-dimensional data. Dimensionality reduction tries to capture the information contained in high-dimensional space as good as possible in lower dimesnional space. In practice this means it boils your table with 60000 columns down to 50 columns, without losing a lot of information. This not only makes everything quicker, but can also reduce noise in the data-set.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analysis of CHIP and ATAC sequencing data"
-date:   2018-07-12
+date:   2018-07-13
 excerpt: "Masterclass"
 image: "/images/chipseq.png"
 ---

@@ -53,7 +53,7 @@ The concept is easier to understand in a Table:
 
 A perfect classifier would have only TP and TN and we would be at the end of optimisation. However this is rarely the case in reality and trying to increase one desirable number like TN often ends up also increasing FP. So different trade-offs have to be calibrated carefully to achieve an optimal score for your problem. There are multiple scorers available to be optimised:
 
-<p style="text-align:center;"> <img class="center" width="500" src="{{ "../images/ml_scorers.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="700" src="{{ "../images/ml_scorers.png" | absolute_url }}" alt="" /> </p>
 
 There is not one optimal scorer for every task. Precision for example should be measured when you want to be sure that of all assigned labels, most of them are correct. If you're looking at algorithms that suggest new videos based on your taste, like the one applied on YouTube, you'd want to be very sure of your reccomendation once you make it (TP). There are enough videos to draw from so you don't care if you do not catch all appropriate recommendations, but you do care for the ones you pick to be a good suggestions. On the contrary when trying to predict cancer for example, recall is the most important scorer, where you're trying to minimise undetected cancer (FN). You'd rather have more False positives to get thoroughly checked for cancer than to miss any patients with cancer. For every single problem that is thrown at ML you have to think carefully what scorer you want to optimise. If you do not know whether to go for Precision or Recall, F1 can be a good scorer which is a harmonic mean of both.
 

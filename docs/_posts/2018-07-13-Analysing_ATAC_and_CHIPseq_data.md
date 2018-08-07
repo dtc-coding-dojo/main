@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analysis of CHIP and ATAC sequencing data"
-date:   2018-07-12
+date:   2018-07-13
 excerpt: "Masterclass"
 image: "/images/chipseq.png"
 ---
@@ -149,7 +149,7 @@ The [Integrated Genome Browser](http://bioviz.org/) can be installed locally.
 ## Differential Peaks
 This essentially forms the basis of the downstream analysis; you are hoping to find peaks in your treated data that are not present in your control/background data. This indicates for ATAC that an area of DNA has opened in the treated sample, and indicates an open transcription factor binding site in CHIP.
 
-[Homer](http://homer.ucsd.edu/homer/) is a good place to start for this, as is relatively simple to use, and will carry out a basic differential analysis of your peaks. It is a little less useful for more complex data sets involving multiple replicates and treatments. Once you’re happy with Homer, I would then move to [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) an R program from the [Bioconductor package](https://bioconductor.org/).
+[Homer](http://homer.ucsd.edu/homer/) is a good place to start for this, as is relatively simple to use, and will carry out a basic differential analysis of your peaks. It is a little less useful for more complex data sets involving multiple replicates and treatments. Once youâ€™re happy with Homer, I would then move to [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) an R program from the [Bioconductor package](https://bioconductor.org/).
 
 # Homer
 You first need to make [Homer tag directories](http://homer.ucsd.edu/homer/ngs/tagDir.html), these are like .bam files that have been sorted, unfortunately Homer does not accept sorted .BAM files at present but he hopes to in the future. To make the tag directories:

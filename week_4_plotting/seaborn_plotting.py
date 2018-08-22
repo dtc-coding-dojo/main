@@ -95,6 +95,7 @@ g.map_upper(plt.scatter)
 #As we already have scatterplots in the upper triangle we can go for something in the lower triangle (keep in mind this is a square like matrix where columns and rows are the same, so we have every cell twice except the diagonal). Here we can plot a kernel density plot which is a way to display datapoints in a scatterplot as density, so where there are more points you have higher density. 
 #You will notice that the command for density and kerneld density plots are the same. Seaborn will automatically draw a density plot if x and y are the same and a kernel density plot if they differ
 g.map_lower(sns.kdeplot)
+
 plt.show()
 
 #Now we generate a few random points again this time using a gammy distribution instead of a normal distribution and also generate some normalised y values.

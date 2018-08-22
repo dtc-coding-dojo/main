@@ -70,7 +70,7 @@ print "dimensionality reduced", X_reduced
 # Lets plot the dimensionality reduced table in three dimensions 
 fig = plt.figure(1, figsize=(8, 6))
 ax = Axes3D(fig, elev=-150, azim=110)
-ax.scatter(X_reduced[:, 0], X_reduced[:, 1], X_reduced[:, 2], c=y,
+ax.scatter(X_reduced[:, 0], X_reduced[:, 1], X_reduced[:, 2], c=y)
 ax.set_title("First three PCA directions")
 ax.set_xlabel("1st eigenvector")
 ax.w_xaxis.set_ticklabels([])
@@ -104,7 +104,7 @@ k_means.fit(X)
 ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
 labels = k_means.labels_
 
-ax.scatter(X[:, 3], X[:, 0], X[:, 2],
+ax.scatter(X[:, 3], X[:, 0], X[:, 2], c=y)
 plt.title( "Kmeans Clustering")
 fig.show()
 plt.show()
@@ -116,7 +116,7 @@ k_means.fit(X)
 ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
 labels = k_means.labels_
 
-ax.scatter(X[:, 3], X[:, 0], X[:, 2],
+ax.scatter(X[:, 3], X[:, 0], X[:, 2], c=y)
 plt.title(" Agglomerative Clustering")
 plt.show()
 
@@ -171,7 +171,7 @@ for classifier in classifiers: # lets loop through the different classifiers
     score = clf.score(X_test, y_test) # see how well we do on the testing data
     score = round(score, 4)
     print classifier_name, score # this will show you how well each classifier is doing
-    plot_contours(ax2, clf, xx, yy, alpha=0.8) # lets plot the decision boundaries between the classes
+    plot_contours(ax2, clf, xx, yy, alpha=0.8) # lets plot the decision boundaries between the classes. Take a look at how different classifiers have very characteristic decision boundaries.
     ax2.scatter(X_test[:, 0], X_test[:, 1], c=y_test,  alpha=0.6, edgecolors='k') # plot the test dataset on top of these decision boundaries. Here we can see where the classifier went wrong
     plt.title( classifier_name +  "\naccuracy = {}".format(score))
     plt.show()

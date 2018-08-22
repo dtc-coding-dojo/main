@@ -3,4 +3,4 @@ This is our applied machine learning code. Here you will find a little demo scri
 When you go through the code it's probably a good idea to comment out most of the lines and just run a bit of the code to see what it does. So with all that said just go ahead and dive right in.
 
  
-<p style="text-align:center;"> <img class="center" width="900" src="{{ "../docs/images/ml_logo.png" | absolute_url }}" alt="" /> </p>
+<p style="text-align:center;"> <img class="center" width="900" src="{{ "./ml_logo.png" | absolute_url }}" alt="" /> </p>

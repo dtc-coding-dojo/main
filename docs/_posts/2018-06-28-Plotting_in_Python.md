@@ -14,7 +14,7 @@ This is a highly applied session that is better explored out using your own comp
 git clone https://github.com/dtc-coding-dojo/main/tree/master/week_4_plotting
 ```
 
-and start playing around with it. The code can be run as it is, but I would encourage you to comment out some of the lines ( with a # sign) to see what every line is doing. The progression is supposed to be plotting.py first, then 3dplotting.py, and finally seaborn_plotting.py. For everyone who wants to do still more advanced plotting you can check out these links to find some descriptions about the interactive plotting plotly (try turning around the plots or zooming in with your mouse):
+and start playing around with it. The code can be run as it is, but I would encourage you to comment out some of the lines ( with a # sign) to see what every line is doing. The progression is supposed to be [plotting.py](https://github.com/dtc-coding-dojo/main/blob/master/week_4_plotting/plotting.py) first, then [3dplotting.py](https://github.com/dtc-coding-dojo/main/blob/master/week_4_plotting/3dplotting.py), and finally [seaborn_plotting.py](https://github.com/dtc-coding-dojo/main/blob/master/week_4_plotting/seaborn_plotting.py). For everyone who wants to do still more advanced plotting you can check out these links to find some descriptions about the interactive plotting plotly (try turning around the plots or zooming in with your mouse):
 
 [Wind Rose Charts](https://plot.ly/python/wind-rose-charts/)
 

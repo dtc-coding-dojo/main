@@ -5,6 +5,7 @@ date:   2018-08-09
 excerpt: "Masterclass"
 image: "/images/ml_logo_2.png"
 ---
+
 This is a highly applied session that is better explored out using your own computer and the code provided. This report is just a quikc intro for the code you can find [on our GitHub](https://github.com/dtc-coding-dojo/main/blob/master/week_7_ml/ML_demo.py). There you can find everything you need to do some applied Machine Learning. You can download this repository to your computer using 
 ```
 git clone https://github.com/dtc-coding-dojo/main/tree/master/week_7_ml

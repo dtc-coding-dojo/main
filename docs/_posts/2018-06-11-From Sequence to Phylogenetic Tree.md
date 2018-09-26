@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From Sequence to Phylogentic Tree"
+title:  "From Sequence to Phylogenetic Tree"
 date:   2018-06-11
 excerpt: "Masterclass"
 image: "/images/phylogenetic_intro.jpg"

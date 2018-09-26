@@ -1,0 +1,226 @@
+0	"""
+
+1	This is where I put my program description. What goes in what goes out. How to use it on the command line and so on. Also probably you should state your name and where to email you with comments
+
+2	"""
+
+3	from __future__ import division
+
+4	import sys
+
+5	import argparse
+
+6	import pandas as pd
+
+7	
+
+8	# NEVER DO THIS
+
+9	from numpy import *
+
+10	
+
+11	#Always do this
+
+12	from math import pi, ceil
+
+13	
+
+14	
+
+15	"______________FUNCTION BODY___________________"
+
+16	
+
+17	
+
+18	def get_dict_from_file( filename):
+
+19		# Describe what your function does here
+
+20	
+
+21		dict_file_line = {}
+
+22		
+
+23		# dont do this
+
+24		try:
+
+25			file = open( filename)
+
+26		except:
+
+27			print "this is not a string"
+
+28	
+
+29	
+
+30		# do this
+
+31		if type( filename) is str:
+
+32		
+
+33			with open( filename) as inf:	
+
+34				print "here is your file with the name {}".format( filename)		
+
+35				
+
+36				for i, line in enumerate( inf):
+
+37					dict_file_line[ i] = line
+
+38			
+
+39			with open( "output.txt", "w+") as outf:
+
+40				for key, item in dict_file_line.iteritems():
+
+41					outf.write( "{}\t{}\n".format( key, item) )
+
+42	
+
+43			return dict_file_line
+
+44		
+
+45		else:
+
+46			print "this is not a string I dont know what to do with this"
+
+47			return None
+
+48	
+
+49	
+
+50	
+
+51	
+
+52	
+
+53	
+
+54	"""_________HERE COMES THE MAIN FUNCTION__________"""
+
+55	
+
+56	
+
+57	if __name__ == "__main__":
+
+58		# We are going to read in a file and print the contents
+
+59	
+
+60		# kinda bad
+
+61		#string_filename = "example_file.txt"
+
+62		
+
+63		# kinda good
+
+64		#string_filename = sys.argv[1]
+
+65	
+
+66		# Best
+
+67		parser = argparse.ArgumentParser( description = 'This is the best way to read in stuff from the command line')
+
+68		parser.add_argument( '-f', type = str, help='this is your file')
+
+69		parser.add_argument( '-i', type = int, help='this is a number')
+
+70		parser.add_argument( '-flag',  action='store_true', help='this is a flag')
+
+71		args = parser.parse_args()
+
+72	
+
+73		string_filename = args.f
+
+74	
+
+75		dict_file_line = get_dict_from_file( string_filename)
+
+76	
+
+77		
+
+78		# Now lets do some list tricks	
+
+79		short_list = [ "", 4, 5, 10, 23, 84]
+
+80	
+
+81		short_list = filter( None, short_list)
+
+82		
+
+83		squares = []
+
+84	
+
+85		for i in short_list:
+
+86			square = i**2
+
+87			print square
+
+88			#short_list.append( i) #NEVER CHANGE A LIST YOURE ITERATING OVER
+
+89	
+
+90			squares.append( square)
+
+91	
+
+92		
+
+93		# Pretty good
+
+94		short_string_list = [ str(x) for x in short_list]
+
+95		
+
+96		# Amazing
+
+97		short_string_list = map(str, short_string_list)
+
+98	
+
+99	
+
+100		short_string_list_numbers_over_5 = [ str(x) for x in short_list if x > 5]
+
+101	
+
+102		print short_string_list_numbers_over_5
+
+103	
+
+104		
+
+105	        
+
+106		
+
+107	
+
+108	
+
+109	
+
+110		
+
+111	
+
+112	
+

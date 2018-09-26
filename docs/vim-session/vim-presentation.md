@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Vim Tutorial"
-date:   2018-09-16
+date:   2018-08-24
 excerpt: "Masterclass"
 image: "/images/vim-session.png"
 ---

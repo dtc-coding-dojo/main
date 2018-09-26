@@ -38,9 +38,9 @@ commands, like you would interact with a shell.  Even though this mode of
 editing seems archaic today, its influence can still be seen in the
 command-line mode of Vim.
 
-![Computers at Bells
-Labs](/images/Ken_Thompson_Dennis_Ritchie.jpg){:class="image main"}
-*Ken Thompson and Dennis Ritchie at Bell Labs*
+![Computers at Bells Labs]({{ "/images/Ken_Thompson_Dennis_Ritchie.jpg" |
+absolute_url }}){:class="image main"} *Ken Thompson and Dennis Ritchie at Bell
+Labs*
 
 ## 1975: `em` by George Colouris
 
@@ -67,8 +67,9 @@ the `vi` (visual) executable was released, which opened the `ex` editor in
 visual mode.  Today, Vim commands that are prefixed with `:` are still called
 `ex` commands.
 
-![ADM-3A keyboard ](/images/LSI-ADM3A-full-keyboard.jpg){:class="image main"}
-*The keyboard model that Joy was using while designing `vi`*
+![ADM-3A keyboard ]({{ "/images/LSI-ADM3A-full-keyboard.jpg" | absolute_url
+}}){:class="image main"} *The keyboard model that Joy was using while designing
+`vi`*
 
 ## 1991: `vim` by Bram Moolenaar
 
@@ -106,10 +107,10 @@ rechristened as "Vi iMproved".
 
 The best way to become familiar with Vim is through practice.  This document
 was therefore written as a text file that you should open in Vim to become
-familiar with Vim commands.  You can download the file
-[here](/vim-session/vim-presentation.md).  Please note that the rest of this
-report is mean to be viewed in Vim and may therefore look weirdly formatted in
-a browser.
+familiar with Vim commands.  You can download the file [here]({{
+    "/vim-session/vim-presentation.md" | absolute_url }}).  Please note that
+    the rest of this report is mean to be viewed in Vim and may therefore look
+    weirdly formatted in a browser.
 
 This section contains the basic commands that you need to get started in Vim.
 It is also highly recommended to go through the builtin Vim tutorial, which is

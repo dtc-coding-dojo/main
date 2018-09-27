@@ -107,10 +107,11 @@ rechristened as "Vi iMproved".
 
 The best way to become familiar with Vim is through practice.  This document
 was therefore written as a text file that you should open in Vim to become
-familiar with Vim commands.  You can download the file [here]({{
-    "/vim-session/vim-presentation.md" | absolute_url }}).  Please note that
-    the rest of this report is mean to be viewed in Vim and may therefore look
-    weirdly formatted in a browser.
+familiar with Vim commands.  You can download the file
+[here](https://github.com/dtc-coding-dojo/main/blob/master/docs/vim-session/vim-presentation.md)
+(download the raw text file by clicking on "Raw").  Please note that the rest
+of this report is meant to be viewed in Vim and may therefore look weirdly
+formatted in a browser.
 
 This section contains the basic commands that you need to get started in Vim.
 It is also highly recommended to go through the builtin Vim tutorial, which is

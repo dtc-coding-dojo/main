@@ -3,7 +3,7 @@ layout: post
 title:  "Ancestral Sequence Reconstruction"
 date:   2018-11-22
 excerpt: "Problem Session"
-image: "/images/things_i_wish.png"
+image: "/images/ASR1.png"
 ---
 ## Ancestral Sequence Reconstruction
 ### Introduction

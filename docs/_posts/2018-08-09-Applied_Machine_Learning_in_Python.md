@@ -22,3 +22,6 @@ When you go through the code of ML_demo.py it's probably a good idea to comment 
 
  
 <p style="text-align:center;"> <img class="center" src="{{ "ml_logo.png" | absolute_url }}" alt="" /> </p>
+
+
+Written by Nicolas Arning

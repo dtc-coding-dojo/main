@@ -76,7 +76,4 @@ My favourite Tree viewer it [ITOL](https://itol.embl.de/) which is online and re
 <p style="text-align:center;"> <img class="center" height="1100" src="{{ "../phylogenetic_intro.png" | absolute_url }}" alt="" /> </p>
 
 
-
-
-### Disclaimer
-This post was written by Nicolas Arning and although I have worked in the field for a few years now I am not even close to knowing everything about phylogenetic and genomics. If you have anything to remark or improve I'll be very happy to receive feedback under nicolas.arning@bdi.ox.ac.uk'
+Written by Nicolas Arning

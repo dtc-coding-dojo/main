@@ -1429,3 +1429,7 @@ tutorial.
 ## Tabs
 
 * `:help tabpage.txt`
+
+
+
+Written by Thomas Pak

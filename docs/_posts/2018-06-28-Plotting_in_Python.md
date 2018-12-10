@@ -32,3 +32,6 @@ and start playing around with it. The code can be run as it is, but I would enco
 
 
 Have fun exploring!
+
+
+Written by Nicolas Arning

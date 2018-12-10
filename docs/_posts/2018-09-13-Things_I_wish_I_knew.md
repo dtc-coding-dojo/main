@@ -37,3 +37,6 @@ You can make your life a lot easier if you follow a few rules which seem tedious
 
 ### Best Coding Practices
 Just talking about coding is a little bit dull, so I made a little script demonstrating how to put some of these rules into practice. Additionally it will be formatted in a way that is considered readable and there are a few tips and tricks I included to make your life in Python easier. Check it out [on our GitHub](https://github.com/dtc-coding-dojo/main/blob/master/week_9_i_wish_i_knew/coding_practices.py)
+
+
+Written by Nicolas Arning

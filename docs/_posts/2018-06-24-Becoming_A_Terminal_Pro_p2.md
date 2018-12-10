@@ -1438,3 +1438,6 @@ Running `help` without any arguments displays a list of shell builtin commands.
 * `help`
 * [Introduction to Linux on
   edX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-1)
+  
+  
+  Written by Thomas Pak

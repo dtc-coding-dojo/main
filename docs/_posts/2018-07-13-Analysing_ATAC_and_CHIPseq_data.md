@@ -218,3 +218,6 @@ Here are a couple of other useful programs for analysing CHIP/ATAC seq:
 [Picard](https://broadinstitute.github.io/picard/) You need Java installed to run this, but it has loads of handy tools.
 
 [bedtools](http://bedtools.readthedocs.io/en/latest/) This is written in C++ so should install easily.
+
+
+Written by Steven Walsh

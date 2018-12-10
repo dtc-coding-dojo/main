@@ -72,3 +72,6 @@ Once ML has been chosen as a viable method, features need to be extracted to be 
 
 After you have explored your data, a ML model has to be fitted to it. Here is where the training data comes into play. Optimisation includes trying different parameters and checking which one results in the highest performance (as measured by scorers). The appropriate scorers could be taken from similar problems, or from your own reasoning. If you don't really know which scorer to use just use all of them. Then you can see maybe if a parameter scores best in most or all of them. You can use the test data to gauge how good your model is (or a k-fold cross-validation). 
 If you don't know which model to use you can look into the literature what kind of model has been applied.  However, if you have enough time and computational power you might just want to try all of them and see which one performs best. We will take a look next week on which models are out there, what the theory behind them is and how to apply them in Python. Once the best classifier has been optimised and chosen it is ready to be applied to new unseen data exhibiting the same features, which is the goal of ML.
+
+
+Written by Nicolas Arning

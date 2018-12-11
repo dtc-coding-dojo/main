@@ -31,8 +31,6 @@ Collecting a dataset of the protein family of interest is always a bit of a trad
 
 #### Sequence Alignment
 First you would need to open your fasta file using the menu in the upper left corner of your screen. Click File>Open A File and select the fasta file with your sequences. Mega will ask you to align or analyze the sequences, here select align. This will open a new window where you can see your sequence coloured by the different amino acids. You will quickly realise by the jumble of colours that this is not at all a viable alignment. This is because Mega hasn't actually aligned them yet but rather put them in an alignment viewer.
-
-<p style="text-align:center;"> <img class="center" width="700" src="{{ "../images/ASR2.png" | absolute_url }}" alt="" /> </p>
  
 From here navigate to Alignment>Align with ClustalW. There will be a lot of parameters like gap opening and gap extension penalties which is the program asking you how likely you think insertions and deletions are. If you do not know exactly what you are doing it is a good idea to stick with defaults. Hopefully it will look a lot less messy now. Here you can also gage whether you are likely to have selected sequences which are similar enough to get an ancestor from. If your alignment is full of gaps ( the "-" character) it means that your sequences are too distant and the algorithm can not figure out which sites have the same evolutionary origin (homologous sites). If this is the case you would need to rethink your whole dataset. Maybe exclude a few very distant sequences one by one and recheck your alignment. If your alignment looks like mine below you are doing pretty well.
 
